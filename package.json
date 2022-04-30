@@ -1,0 +1,35 @@
+{
+  "name": "ubasic",
+  "version": "1.0.0",
+  "description": "Personal QBasic Theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groovyMysterioso/uBasic.git"
+  },
+  "keywords": [
+    "Qbasic",
+    "theme",
+    "retro"
+  ],
+  "author": "James R. Pritts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groovyMysterioso/uBasic/issues"
+  },
+  "homepage": "https://github.com/groovyMysterioso/uBasic#readme",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "uBasic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/uBasic.json"
+      }
+    ]
+  }
+}
